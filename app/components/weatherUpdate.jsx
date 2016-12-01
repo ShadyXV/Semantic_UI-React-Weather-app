@@ -1,26 +1,6 @@
 var React = require('react');
 var {Segment, List, Image} = require('semantic-ui-react');
-//var imgLoc = require("file-loader!../images/placeholder.png")
-// var WeatherUpdate  = React.createClass({
-//   render:function (){
-//     var {temp,location} = this.props;
-//     return (
-//       <p>Its {temp}c in {location}</p>
-//     );
-//   }
-// });
 
-//Stateless functional components with props.
-// var WeatherUpdate = (props) =>{
-//   var {temp, location} = props;
-//   return (
-//     <p>Its {temp}c in {location}</p>
-//   );
-// }
-// module.exports = WeatherUpdate;
-
-//es6 destructruing inside arguments.
-//({temp, location}) =>{
 var WeatherUpdate = ({temp, location, pressure, humidity, max, min, windSpeed, visibility, sunrise, sunset}) =>{
   return (
     <Segment piled>

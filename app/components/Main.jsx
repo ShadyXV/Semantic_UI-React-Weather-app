@@ -13,5 +13,3 @@ var {Container,Form , Input} = require('semantic-ui-react');
    );
  };
 module.exports = Main;
-
-//          {props.children}

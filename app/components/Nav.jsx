@@ -38,23 +38,3 @@ var Nav = React.createClass({
 
 
 module.exports = Nav;
-// <IndexLink to='/' activeClassName='active' activeStyle={{fontWeight:'bold'}}>Get Weather</IndexLink>
-//
-// <Link to='/about' activeClassName='active' activeStyle={{fontWeight:'bold'}}>About</Link>
-//
-// <Link to='/example' activeClassName='active' activeStyle={{fontWeight:'bold'}}>Example</Link>
-
-
-
-
-
-
-
-
-
-
-// <Form onSubmit={this.onSearch}>
-//   <Form.Field>
-//     <Input transparent size='small' placeholder="Search Weather By City" icon='search'></Input>
-//   </Form.Field>
-// </Form>

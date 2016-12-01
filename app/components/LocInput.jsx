@@ -31,10 +31,3 @@ var Loc = React.createClass({
 });
 
 module.exports  = Loc;
-
-
-//  <Form onSubmit={this.onFormSubmit}>
-//     <Form.Field>
-//       <Input transparent fluid name='mainForm' type='text' control='input' size='big' placeholder='Search By City Name...' ref='location'  icon={{ name: 'search', circular: true, link: true }}/>
-//    </Form.Field>
-//   </Form>
